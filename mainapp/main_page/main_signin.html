@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="./style/sign_in_up.css">
+    
+</head>
+
+<body>
+    <div class="main">
+        <a href="main_home.html" class="logo"><h2>LOGO</h2></a>
+        <h1>Đăng nhập</h1>
+        <form action="">
+            <label for="sign_in_email">
+                Email:
+            </label>
+            <input type="email" id="sign_in_email" name="sign_in_email" placeholder="Enter your Email" required>
+
+            <label for="sign_in_password">
+                Mật khẩu:
+            </label>
+            <input type="password" id="sign_in_password" name="sign_in_password" placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button id="btnSignin" type="submit">
+                    Xác nhận
+                </button>
+            </div>
+        </form>
+        <p>Chưa đăng ký?
+            <a href="main_signup.html" style="text-decoration: none;">
+                Tạo tài khoản
+            </a>
+        </p>
+        <p>
+            <a href="main_forgot_password.html" style="text-decoration: none;">Quên mật khẩu?</a>
+        </p>
+    </div>
+
+    <!-- script at end of file so it can load element of file -->
+    <script type="module" src="./js_file/sign_in.js"></script>
+</body>
+
+</html>
