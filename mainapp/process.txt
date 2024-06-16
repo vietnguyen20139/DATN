@@ -1,0 +1,15 @@
+- set table cannot click - ok
+lam class tai xe
+- add, fb
+- remove, fb
+- update, fb 
+- click in row then show row information
+
+lam class xe oto
+- add, fb
+- remove, fb
+- update, fb
+
+lam class hang hoa
+- chon tai xe
+- chon xe
